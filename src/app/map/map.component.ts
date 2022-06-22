@@ -62,6 +62,7 @@ export class MapComponent implements AfterViewInit {
     }
   }
 
+  //Ouverture dans un nouvel onglet l'interface de l'équipement distant
   onClick(name: string){
     for (const key in this.sites.siteList) {
       if (this.sites.siteList[key].name === name)  {
